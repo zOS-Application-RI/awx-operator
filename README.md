@@ -144,7 +144,7 @@ resources:
 
 # Set the image tags to match the git version from above
 images:
-  - name: quay.io/ansible/awx-operator
+  - name: docker.io/ashish1981/awx-operator
     newTag: <tag>
 
 # Specify a custom namespace in which to install AWX
@@ -617,11 +617,11 @@ There are a few variables that are customizable for awx the image management.
 
 | Name                | Description               | Default                                 |
 | ------------------- | ------------------------- | --------------------------------------  |
-| image               | Path of the image to pull | quay.io/ansible/awx                     |
+| image               | Path of the image to pull | docker.io/ashish1981/awx                     |
 | image_version       | Image version to pull     | value of DEFAULT_AWX_VERSION or latest  |
 | image_pull_policy   | The pull policy to adopt  | IfNotPresent                            |
 | image_pull_secrets  | The pull secrets to use   | None                                    |
-| ee_images           | A list of EEs to register | quay.io/ansible/awx-ee:latest           |
+| ee_images           | A list of EEs to register | docker.io/ashish1981/awx-ee:latest           |
 | redis_image         | Path of the image to pull | docker.io/redis                         |
 | redis_image_version | Image version to pull     | latest                                  |
 

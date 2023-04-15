@@ -15,13 +15,13 @@ jobs:
 
       - name: Build Image
         run: |
-          IMG=awx-operator:devel make docker-build
+          IMG=awx-operator:latest make docker-build
 
       - name: Push To Quay
         uses: redhat-actions/push-to-registry@v2.1.1
         with:
           image: awx-operator
           tags: devel
-          registry: quay.io/ansible/
+          registry: docker.io/ashish1981/
           username: ${{ secrets.QUAY_USER }}
           password: ${{ secrets.QUAY_TOKEN }}
