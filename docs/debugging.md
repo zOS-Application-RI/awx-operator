@@ -63,7 +63,7 @@ spec:
 
 ## Iterating on the installer without deploying the operator
 
-Go through the [normal basic install](https://github.com/ansible/awx-operator/blob/devel/README.md#basic-install) steps.
+Go through the [normal basic install](https://github.com/zOS-Application-RI/awx-operator/blob/devel/README.md#basic-install) steps.
 
 Install some dependencies:
 

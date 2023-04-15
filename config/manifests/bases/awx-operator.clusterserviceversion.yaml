@@ -9,7 +9,7 @@ metadata:
     createdAt: "2019-10-30"
     description: AWX provides a web-based user interface, REST API, and task engine
       built on top of Ansible.
-    repository: https://github.com/ansible/awx-operator
+    repository: https://github.com/zOS-Application-RI/awx-operator
   name: awx-operator.v0.0.0
   namespace: placeholder
 spec:
@@ -830,7 +830,7 @@ spec:
     ## How to Install
 
     Install the AWX Operator by following instructions presented when you click the Install button.
-    You can find additional installation guidance in the README.md: https://github.com/ansible/awx-operator/blob/devel/README.md
+    You can find additional installation guidance in the README.md: https://github.com/zOS-Application-RI/awx-operator/blob/devel/README.md
 
     ## How to Upgrade
 
@@ -861,7 +861,7 @@ spec:
   - ansible
   links:
   - name: AWX Operator
-    url: https://github.com/ansible/awx-operator
+    url: https://github.com/zOS-Application-RI/awx-operator
   maintainers:
   - email: awx-project@googlegroups.com
     name: AWX Team
@@ -869,5 +869,5 @@ spec:
   MinKubeVersion: 1.22.15
   provider:
     name: Ansible
-    url: github.com/ansible/awx-operator
+    url: github.com/zOS-Application-RI/awx-operator
   version: 0.0.0
